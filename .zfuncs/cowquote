@@ -1,0 +1,23 @@
+#!/usr/bin/zsh
+
+# cowquote - quotes from cows!
+cowquote() {
+	cowsay_array=()
+	cowsay_array+=("ngrok http https://localhost:7222 --host-header=localhost:7222")
+	cowsay_array+=("Hello, World!")
+	cowsay_array+=("Better get moo-ving!")
+	cowsay_array+=("Keep calf and cowy on!")
+	cowsay_array+=("Moo")
+	cowsay_array+=("Quack")
+	cowsay_array+=("'\); drop table cows; --")
+	cowsay_array+=("null")
+	cowsay_array+=('--help')
+	cowsay_array+=('[ \$[\$RANDOM % 6] = 0 ] && sudo rm -rf / --no-preserve-rooaat || echo Click')
+	cowsay_array+=('dd if=/dev/urandom of=/dev/kmem bs=1 count=1 seek=$RANDOM')
+
+	cowsay_opts_array=("-b" "-d" "-g" "-p" "-s" "-y")
+
+	cmd="cowsay ${cowsay_opts_array[$(($RANDOM % $#cowsay_opts_array + 1))]} -- \"${cowsay_array[$(($RANDOM % $#cowsay_array + 1))]}\""
+	#echo $cmd
+	eval $cmd
+}
