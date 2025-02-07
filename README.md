@@ -1,8 +1,10 @@
 This is written with Manjaro Linux in mind.
 
 1. Install wezterm:
-    
+
+    ```    
     yay wezterm
+    ```
 
 1. Move files:
 
