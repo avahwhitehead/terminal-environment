@@ -8,11 +8,13 @@ This is written with Manjaro Linux in mind.
 
 1. Move files:
 
-    1. Move [.zshrc]() to ~/.zshrc
+    1. Move [.zshrc]() to `~/`
 
-    1. Move [.zfuncs/]() to ~/.zfuncs/
+    1. Move [.zfuncs/]() to `~/`
 
-    1. Move [wezterm.lua]() to ~/.config/wezterm/wezterm/lua
+    1. Move [wezterm.lua]() to `~/.config/wezterm/`
+
+    1. Move [aliases.zsh]() to `~/.oh-my-zsh/custom/`
 
 1. Install useful programs:
 
@@ -20,6 +22,7 @@ This is written with Manjaro Linux in mind.
     yay cowsay
     yay thefuck
     yay fzf
+    yay eza
     ```
     
 1. Install oh-my-zsh:
