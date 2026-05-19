@@ -11,7 +11,8 @@ pacman -Syu \
   neovim \
   curl \
   lazygit \
-  tree-sitter-cli
+  tree-sitter-cli \
+  xclip
 
 mv ./.zshrc ~
 mv ./.zfuncs/ ~
