@@ -21,6 +21,7 @@ mkdir -p oh-my-zsh/custom
 rsync -avhW --no-compress --progress --delete \
   ~/.oh-my-zsh/custom/ \
   oh-my-zsh/custom/ \
+  --exclude="*example.zsh" \
   --include="*.zsh" \
   --exclude="*"
 
