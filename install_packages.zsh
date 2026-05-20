@@ -14,9 +14,4 @@ pacman -Syu \
   tree-sitter-cli \
   xclip
 
-mv ./.zshrc ~
-mv ./.zfuncs/ ~
-mv ./wezterm.lua ~/.config/wezterm/
-mv ./aliases.zsh ~/.oh-my-zsh/custom/
-
 
