@@ -2,21 +2,25 @@
 
 rsync -avhW --no-compress --progress --delete \
   ~/.config/wezterm/ \
-  ./config/wezterm/
+  config/wezterm/
 
 rsync -avhW --no-compress --progress --delete \
   ~/.config/nvim/ \
-  ./config/nvim/
+  config/nvim/
 
 rsync -avhW --no-compress --progress --delete \
   ~/.zshrc \
-  ./zshrc
+  zshrc
 
 rsync -avhW --no-compress --progress --delete \
   ~/.zfuncs/ \
-  ./zfuncs/
+  zfuncs/
+
+mkdir -p oh-my-zsh/custom
 
 rsync -avhW --no-compress --progress --delete \
-  ~/.oh-my-zsh/ \
-  ./oh-my-zsh/
+  ~/.oh-my-zsh/custom/ \
+  oh-my-zsh/custom/ \
+  --include="*.zsh" \
+  --exclude="*"
 
