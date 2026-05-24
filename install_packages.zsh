@@ -12,6 +12,7 @@ pacman -Syu \
   curl \
   lazygit \
   tree-sitter-cli \
-  xclip
+  xclip \
+  tmux
 
 

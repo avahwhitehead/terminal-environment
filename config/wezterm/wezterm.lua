@@ -7,7 +7,8 @@ local config = wezterm.config_builder()
 -- This is where you actually apply your config choices
 local act = wezterm.action
 
-config.default_prog = { "/bin/zsh" }
+--config.default_prog = { "/bin/zsh" }
+config.default_prog = { "/usr/bin/tmux" }
 
 config.mouse_bindings = {
 	-- Right click
@@ -72,12 +73,12 @@ config.keys = {
 	},
 	{
 		key = "w",
-		mods = "CTRL",
+		mods = "ALT",
 		action = wezterm.action.CloseCurrentPane({ confirm = false }),
 	},
 	{
 		key = "t",
-		mods = "CTRL",
+		mods = "ALT",
 		action = wezterm.action.SpawnTab("CurrentPaneDomain"),
 	},
 }
