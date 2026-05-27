@@ -25,3 +25,5 @@ rsync -avhW --no-compress --progress --delete \
   --include="*.zsh" \
   --exclude="*"
 
+cp ~/.tmux.conf tmux.conf
+

@@ -20,3 +20,5 @@ rsync -avhW --no-compress --progress \
   oh-my-zsh/ \
   ~/.oh-my-zsh/
 
+cp tmux.conf ~/.tmux.conf
+
