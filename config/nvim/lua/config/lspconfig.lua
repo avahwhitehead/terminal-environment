@@ -1,0 +1,12 @@
+require("nvchad.config.lspconfig").defaults()
+
+local servers = { "html", "cssls" }
+vim.lsp.enable(servers)
+
+-- read :h vim.lsp.config for changing options of lsp servers
+
+-- ROSLYN (+razor support)
+local mason_root = require("mason.settings").current.install_root_dir
+
+vim.lsp.config("roslyn", {})
+-- END ROSLYN
