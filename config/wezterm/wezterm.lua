@@ -83,6 +83,11 @@ config.keys = {
 		mods = "ALT",
 		action = wezterm.action.SpawnTab("CurrentPaneDomain"),
 	},
+	{
+		key = "t",
+		mods = "CTRL|SHIFT",
+		action = wezterm.action.DisableDefaultAssignment,
+	},
 }
 
 -- and finally, return the configuration to wezterm
