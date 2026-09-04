@@ -4,13 +4,15 @@
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+export LC_ALL="en_GB.UTF-8"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
-#ZSH_THEME="agnoster"
-source /usr/share/zsh/manjaro-zsh-prompt
+ZSH_THEME="agnoster"
+#source /usr/share/zsh/manjaro-zsh-prompt
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
