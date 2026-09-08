@@ -8,6 +8,7 @@ pacman -Syu \
   fd \
   ripgrep \
   lazygit \
+  man-db \
   neovim \
   curl \
   lazygit \

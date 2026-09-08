@@ -5,6 +5,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 export LC_ALL="en_GB.UTF-8"
+export LANGUAGE="en_GB.UTF-8"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
