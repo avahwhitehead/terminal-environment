@@ -8,6 +8,7 @@ cowquote() {
 	cowsay_array+=("Better get moo-ving!")
 	cowsay_array+=("Keep calf and cowy on!")
 	cowsay_array+=("Moo")
+	cowsay_array+=("Mooray!")
 	cowsay_array+=("Quack")
 	cowsay_array+=("'\); drop table cows; --")
 	cowsay_array+=("null")
