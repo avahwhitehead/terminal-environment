@@ -10,11 +10,13 @@ pacman -Syu \
   lazygit \
   man-db \
   neovim \
+  openssh \
   curl \
   lazygit \
   tree-sitter-cli \
   xclip \
-  tmux
+  tmux \
+  unzip
 
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 sh install.sh
