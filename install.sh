@@ -1,4 +1,6 @@
-#!/usr/bin/zsh
+#!/usr/bin/bash
+
+./install_packagess.sh
 
 rsync -avhW --no-compress --progress --delete \
   config/wezterm/ \
@@ -22,3 +24,7 @@ rsync -avhW --no-compress --progress \
 
 cp tmux.conf ~/.tmux.conf
 
+if which wslinfo; then
+  echo "Running in WSL: Adding WSL Aliases"
+  cp ./wsl_aliases.zsh ~/.oh-my-zsh/custom/wsl.zsh
+fi
