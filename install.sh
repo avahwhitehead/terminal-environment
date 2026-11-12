@@ -1,4 +1,6 @@
-#!/usr/bin/zsh
+#!/usr/bin/bash
+
+./install_packagess.sh
 
 rsync -avhW --no-compress --progress --delete \
   config/wezterm/ \
@@ -21,4 +23,3 @@ rsync -avhW --no-compress --progress \
   ~/.oh-my-zsh/
 
 cp tmux.conf ~/.tmux.conf
-
