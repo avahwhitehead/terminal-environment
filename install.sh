@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-./install_packagess.sh
+./install_packages.sh
 
 rsync -avhW --no-compress --progress --delete \
   config/wezterm/ \
