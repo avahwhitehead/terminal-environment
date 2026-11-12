@@ -1,23 +1,26 @@
 #!/usr/bin/bash
 pacman -Syu \
-  wezterm \
+  bat \
   cowsay \
-  thefuck \
-  fzf \
+  curl \
   eza \
   fd \
-  ripgrep \
+  fzf \
   lazygit \
   man-db \
-  neovim \
   nano \
+  neovim \
   openssh \
-  curl \
-  lazygit \
-  tree-sitter-cli \
-  xclip \
+  ripgrep \
+  rsync \
+  thefuck \
   tmux \
+  tree \
+  tree-sitter-cli \
   unzip \
+  wezterm \
+  wget \
+  xclip \
   zsh
 
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
