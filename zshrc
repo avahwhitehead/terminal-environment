@@ -12,8 +12,11 @@ export LANGUAGE="en_GB.UTF-8"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="agnoster"
-#source /usr/share/zsh/manjaro-zsh-prompt
+if [ -e /usr/share/zsh/manjaro-zsh-prompt ]; then
+    source /usr/share/zsh/manjaro-zsh-prompt
+else
+    ZSH_THEME="agnoster"
+fi
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
