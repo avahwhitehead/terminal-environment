@@ -1,5 +1,12 @@
 #!/usr/bin/bash
-pacman -Syu \
+
+if which wslinfo >/dev/null 2>&1; then
+  MY_SUDO=""
+else
+  MY_SUDO="sudo"
+fi
+
+$MY_SUDO pacman -Syu \
   bat \
   cowsay \
   curl \
